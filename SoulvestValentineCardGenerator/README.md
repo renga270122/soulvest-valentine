@@ -1,23 +1,27 @@
-# Souvest Valentine Card Generator
+# Soulvest Valentine Card Generator
 
-A simple web app to create personalized Valentine cards with custom messages, hobbies, designs, and photos. Download or share your card instantly!
+A simple web app to create personalized, poetic, and heart-touching Valentine cards. Add a recipient's name and photo, generate a unique card with a Soulvest signature, and download or share it instantly.
 
 ## Features
-- AI-generated Valentine’s Day messages
-- Choose recipient name, hobby, and card design
-- Upload a photo for personalization
-- Preview your card before downloading
-- Download as PNG or share via supported devices
+- Minimalist form: only recipient name and photo
+- Dynamic poetic messages with relevant emojis
+- Soulvest signature footer on card and page
+- Download card as PNG
+- Share card image via Web Share API
+- Automatic html2canvas loading for image export
 
 ## Usage
-1. Open `index.html` in your browser.
-2. Fill in the recipient details, select a hobby, design, and message.
-3. (Optional) Upload a photo.
-4. Click "Generate Card" to preview.
-5. Download or share your card.
+1. Enter the recipient's name.
+2. Upload a photo (optional).
+3. Click "Generate Card" to preview.
+4. Download or share the card.
 
-## Dependencies
-- [html2canvas](https://html2canvas.hertzen.com/) (for PNG export)
+## Tech Stack
+- HTML, CSS, JavaScript
+- html2canvas (CDN-loaded)
 
 ## Credits
-Based on Valentine card features from SoulVest_Card_Generator.
+Made with love by Soulvest ❤️
+
+## License
+MIT License
